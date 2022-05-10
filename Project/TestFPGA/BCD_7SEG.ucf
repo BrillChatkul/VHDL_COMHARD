@@ -1,0 +1,13 @@
+NET "clk_t" LOC = P123;
+
+NET "common7Seg[0]" LOC = P44;
+NET "common7Seg[1]" LOC = P43;
+NET "common7Seg[2]" LOC = P33;
+
+NET "Seven_Segment[0]" LOC = P41;
+NET "Seven_Segment[1]" LOC = P40;
+NET "Seven_Segment[2]" LOC = P35;
+NET "Seven_Segment[3]" LOC = P34;
+NET "Seven_Segment[4]" LOC = P32;
+NET "Seven_Segment[5]" LOC = P29;
+NET "Seven_Segment[6]" LOC = P27;
