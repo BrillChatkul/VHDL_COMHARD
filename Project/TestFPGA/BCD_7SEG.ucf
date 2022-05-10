@@ -13,4 +13,10 @@ NET "Seven_Segment[5]" LOC = P29;
 NET "Seven_Segment[6]" LOC = P27;
 
 NET "cl_button" LOC = P45;
+NET "getStart" LOC = P66;
 NET "check_LED" LOC = P82;
+
+NET "sntdata[0]" LOC = P118;
+NET "sntdata[1]" LOC = P117;
+NET "sntdata[2]" LOC = P116;
+NET "sntdata[3]" LOC = P115;
