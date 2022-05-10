@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-05-10T02:30:37</DateModified>
+  <DateModified>2022-05-10T13:30:47</DateModified>
   <ModuleName>BCD_7SEG</ModuleName>
   <SummaryTimeStamp>2022-05-10T01:47:25</SummaryTimeStamp>
-  <SavedFilePath>C:/Project/TestFPGA/iseconfig/BCD_7SEG.xreport</SavedFilePath>
+  <SavedFilePath>C:/Users/Cellar/Documents/GitHub/VHDL_COMHARD/Project/TestFPGA/iseconfig/BCD_7SEG.xreport</SavedFilePath>
   <ImplementationReportsDirectory>C:/Project\</ImplementationReportsDirectory>
   <DateInitialized>2022-05-09T13:35:23</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>

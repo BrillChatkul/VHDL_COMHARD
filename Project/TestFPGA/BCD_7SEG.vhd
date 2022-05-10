@@ -32,8 +32,10 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity BCD_7SEG is
 Port (
 clk_t : in STD_LOGIC;
+cl_button : in STD_LOGIC; --test button
 Seven_Segment: out STD_LOGIC_VECTOR(6 downto 0);
-common7Seg : out STD_LOGIC_VECTOR(2 downto 0)
+common7Seg : out STD_LOGIC_VECTOR(2 downto 0);
+check_LED : out STD_LOGIC --test LED 
 );
 end BCD_7SEG;
 
@@ -114,5 +116,6 @@ u7: demux port map(Seven_Segment1,Seven_Segment2,Seven_Segment3,shift7Seg,Seven_
 common7Seg(0) <= not shift7Seg(0);
 common7Seg(1) <= not shift7Seg(1);
 common7Seg(2) <= not shift7Seg(2);
+check_LED <= cl_button;
 end Behavioral;
 

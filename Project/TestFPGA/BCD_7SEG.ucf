@@ -11,3 +11,6 @@ NET "Seven_Segment[3]" LOC = P34;
 NET "Seven_Segment[4]" LOC = P32;
 NET "Seven_Segment[5]" LOC = P29;
 NET "Seven_Segment[6]" LOC = P27;
+
+NET "cl_button" LOC = P45;
+NET "check_LED" LOC = P82;
