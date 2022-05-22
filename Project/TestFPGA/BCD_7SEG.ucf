@@ -1,20 +1,34 @@
 NET "clk_t" LOC = P123;
 
-NET "common7Seg[0]" LOC = P44;
-NET "common7Seg[1]" LOC = P43;
-NET "common7Seg[2]" LOC = P33;
+NET "common7SegFPGA[0]" LOC = P44;
+NET "common7SegFPGA[1]" LOC = P43;
+NET "common7SegFPGA[2]" LOC = P33;
 
-NET "Seven_Segment[0]" LOC = P41;
-NET "Seven_Segment[1]" LOC = P40;
-NET "Seven_Segment[2]" LOC = P35;
-NET "Seven_Segment[3]" LOC = P34;
-NET "Seven_Segment[4]" LOC = P32;
-NET "Seven_Segment[5]" LOC = P29;
-NET "Seven_Segment[6]" LOC = P27;
+//common7SegFPGA
+NET "common7Seg[0]" LOC = P6;
+NET "common7Seg[1]" LOC = P8;
+NET "common7Seg[2]" LOC = P10;
+
+NET "Seven_SegmentFPGA[0]" LOC = P41;
+NET "Seven_SegmentFPGA[1]" LOC = P40;
+NET "Seven_SegmentFPGA[2]" LOC = P35;
+NET "Seven_SegmentFPGA[3]" LOC = P34;
+NET "Seven_SegmentFPGA[4]" LOC = P32;
+NET "Seven_SegmentFPGA[5]" LOC = P29;
+NET "Seven_SegmentFPGA[6]" LOC = P27;
+
+//Seven_SegmentFPGA
+NET "Seven_Segment[0]" LOC = P5;
+NET "Seven_Segment[1]" LOC = P7;
+NET "Seven_Segment[2]" LOC = P9;
+NET "Seven_Segment[3]" LOC = P11;
+NET "Seven_Segment[4]" LOC = P14;
+NET "Seven_Segment[5]" LOC = P16;
+NET "Seven_Segment[6]" LOC = P21;
 
 NET "cl_button" LOC = P45;
-NET "getStart" LOC = P66;
-NET "check_LED" LOC = P82;
+NET "getStart" LOC = P120;
+NET "check_LED" LOC = P119;
 
 NET "sntdata[0]" LOC = P118;
 NET "sntdata[1]" LOC = P117;

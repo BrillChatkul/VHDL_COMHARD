@@ -34,8 +34,8 @@ Port (
 clk_t : in STD_LOGIC;
 getStart : in STD_LOGIC; --start
 cl_button : in STD_LOGIC; --test button
-Seven_Segment: out STD_LOGIC_VECTOR(6 downto 0);
-common7Seg : out STD_LOGIC_VECTOR(2 downto 0);
+Seven_Segment, Seven_SegmentFPGA: out STD_LOGIC_VECTOR(6 downto 0);
+common7Seg, common7SegFPGA : out STD_LOGIC_VECTOR(2 downto 0);
 check_LED : out STD_LOGIC; --test LED
 sntdata : out std_logic_vector(0 to 3) 
 );
@@ -123,6 +123,7 @@ signal m2,m3,m4: std_logic_vector(0 to 1);
 signal shift7Seg: std_logic_vector(0 to 2);
 signal Seven_Segment1,Seven_Segment2,Seven_Segment3 : STD_LOGIC_VECTOR(6 downto 0);
 signal x1,x2: std_logic_vector(0 to 3);
+signal svnSegment: std_logic_vector(0 to 6);
 
 --beginning
 begin
@@ -144,7 +145,14 @@ u5: decoder2bit port map(m2,Seven_Segment1);--decode to sevensegment1
 u51: decoder2bit port map(m3,Seven_Segment2);--decode to sevensegment2
 u52: decoder2bit port map(m4,Seven_Segment3);--decode to sevensegment3
 u6: Shiftbit port map(m0,shift7Seg); --shift bit
-u7: demux port map(Seven_Segment1,Seven_Segment2,Seven_Segment3,shift7Seg,Seven_Segment); --demux
+u7: demux port map(Seven_Segment1,Seven_Segment2,Seven_Segment3,shift7Seg,svnSegment); --demux
+Seven_Segment <= svnSegment;
+Seven_SegmentFPGA <= svnSegment;
+
+common7SegFPGA(0) <= not shift7Seg(0);
+common7SegFPGA(1) <= not shift7Seg(1);
+common7SegFPGA(2) <= not shift7Seg(2);
+
 common7Seg(0) <= not shift7Seg(0);
 common7Seg(1) <= not shift7Seg(1);
 common7Seg(2) <= not shift7Seg(2);
