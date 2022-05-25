@@ -13,13 +13,13 @@
          <ClosedNode>/Ripple_Adder2 - Behavioral C:|Users|Cellar|Documents|GitHub|VHDL_COMHARD|Project|TestFPGA|rippleAdder.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>BCD_7SEG - Behavioral (C:/Users/Cellar/Documents/GitHub/VHDL_COMHARD/Project/TestFPGA/BCD_7SEG.vhd)</SelectedItem>
+         <SelectedItem>U2 - TTimer_div - Behavioral (C:/Users/Cellar/Documents/GitHub/VHDL_COMHARD/Project/TestFPGA/TTimer_div.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000017e000000020000000000000000000000000200000064ffffffff0000008100000003000000020000017e0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>BCD_7SEG - Behavioral (C:/Users/Cellar/Documents/GitHub/VHDL_COMHARD/Project/TestFPGA/BCD_7SEG.vhd)</CurrentItem>
+      <CurrentItem>U2 - TTimer_div - Behavioral (C:/Users/Cellar/Documents/GitHub/VHDL_COMHARD/Project/TestFPGA/TTimer_div.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -65,17 +65,16 @@
          <ClosedNode>Configure Target Device</ClosedNode>
          <ClosedNode>Design Utilities</ClosedNode>
          <ClosedNode>Implement Design</ClosedNode>
-         <ClosedNode>Synthesize - XST</ClosedNode>
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Generate Programming File</SelectedItem>
+         <SelectedItem>Check Syntax</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000172000000010000000100000000000000000000000064ffffffff000000810000000000000001000001720000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Generate Programming File</CurrentItem>
+      <CurrentItem>Check Syntax</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
       <ClosedNodes>

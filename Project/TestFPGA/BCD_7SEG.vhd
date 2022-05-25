@@ -146,15 +146,15 @@ u51: decoder2bit port map(m3,Seven_Segment2);--decode to sevensegment2
 u52: decoder2bit port map(m4,Seven_Segment3);--decode to sevensegment3
 u6: Shiftbit port map(m0,shift7Seg); --shift bit
 u7: demux port map(Seven_Segment1,Seven_Segment2,Seven_Segment3,shift7Seg,svnSegment); --demux
-Seven_Segment <= svnSegment;
+Seven_Segment <= not svnSegment;
 Seven_SegmentFPGA <= svnSegment;
 
 common7SegFPGA(0) <= not shift7Seg(0);
 common7SegFPGA(1) <= not shift7Seg(1);
 common7SegFPGA(2) <= not shift7Seg(2);
 
-common7Seg(0) <= not shift7Seg(0);
-common7Seg(1) <= not shift7Seg(1);
-common7Seg(2) <= not shift7Seg(2);
+common7Seg(0) <=  shift7Seg(0);
+common7Seg(1) <=  shift7Seg(1);
+common7Seg(2) <=  shift7Seg(2);
 end Behavioral;
 
