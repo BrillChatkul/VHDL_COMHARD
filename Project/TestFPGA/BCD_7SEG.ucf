@@ -26,7 +26,7 @@ NET "Seven_Segment[4]" LOC = P14;
 NET "Seven_Segment[5]" LOC = P16;
 NET "Seven_Segment[6]" LOC = P21;
 
-NET "cl_button" LOC = P45;
+NET "cl_button" LOC = P24;
 NET "getStart" LOC = P120;
 NET "check_LED" LOC = P119;
 
